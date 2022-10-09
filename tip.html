@@ -1,0 +1,42 @@
+<html>
+    <head>
+        
+        <link rel="stylesheet" type="text/css" href="tipcs.css">
+    </head>
+   
+        <div id="container"> 
+            <h1><STRONG>TIP CALCULATOR</STRONG></h1>
+        <div id="calculator">
+
+        <form>
+            <p><h3>How much was your total bill?</h3>
+            Rs. <input id="billamt" type="text" placeholder="bill amont">
+            <p><h3>how was your service?</h3>
+            <select id="serviceQual">
+                <option disabled delected value="0">--choose an option--</option>
+                <option value="0.2">2&#37; &#45;  just ok</option>
+                <option value="0.5">5&#37; &#45;  normal</option>
+                <option value="0.8">8&#37; &#45;  average</option>
+                <option value="0.10">10&#37; &#45;  OK</option>
+                <option value="0.12">12&#37; &#45; good</option>
+                <option value="0.15">15&#37; &#45; Very good</option>
+                <option value="0.18">18&#37; &#45; Nice behaviour</option>
+                <option value="0.20">20&#37; &#45;Outstanding service</option>
+
+            </select>
+        </form>
+
+        <p><h3>how many people are sharing bill?</h3></p>
+        <input id="peopleamt" type="text" placeholder="no. of people sharing bill">
+        <button type="button" id="calculate">Calculate</button>
+        </div>
+
+        <div id="totaltip">
+           Rs. <span id="tip">00.0</span>
+            <small id="each">each</small>
+        </div>
+        </div>
+        
+    
+    <script type="text/javascript" src="tij.js"></script>
+</html>
